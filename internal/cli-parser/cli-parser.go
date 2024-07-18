@@ -37,7 +37,7 @@ func (p *CliParser) Parse() (*models.ObjectInfo, error) {
 	var containDir string
 
 	if idx != -1 {
-		containDir = objPath[:idx]
+		containDir = strings.ToLower(objPath[:idx])
 	}
 
 	dirtyObjDir := objPath[idx+1:]
