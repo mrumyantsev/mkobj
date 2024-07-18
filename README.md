@@ -24,6 +24,9 @@ mkobj internal/App
 mkobj internal/Handler
 mkobj internal/Service
 mkobj internal/Repository
+mkobj internal/Repository/PostgresRepository
+mkobj internal/Repository/MySqlRepository
+mkobj internal/Repository/MongoDbRepository
 mkobj internal/Models
 mkobj internal/Config
 mkobj internal/Http-Server
