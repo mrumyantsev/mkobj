@@ -3,4 +3,4 @@
 
 .PHONY: build
 build:
-	go build -o ./build/mkobj ./cmd/main.go
+	go build -o ./build/mkobj ./cmd/mkobj/...
