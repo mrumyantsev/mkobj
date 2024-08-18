@@ -14,7 +14,7 @@ sudo apt-get install -y make
 git clone https://github.com/mrumyantsev/mkobj.git
 cd mkobj
 make
-sudo mv ./build/mkobj /usr/local/bin
+sudo make install
 ```
 
 ## Usage
